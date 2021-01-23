@@ -14,5 +14,13 @@ class Main {
     System.out.println("red: " + red);
   double yellow = .14 * total;
     System.out.println("yellow: " + yellow);
+  double sum = blue + brown + green + orange + red +yellow;
+    System.out.println("sum: " + sum);
+  if (blue > brown && red > orange)
+     System.out.println("Blue over Brown and Red over Orange");
+  if (brown <= green)
+     System.out.println("Brown is less than or equal to Green");
+  if (sum == total)
+     System.out.println("Numbers match");
   }
 };
